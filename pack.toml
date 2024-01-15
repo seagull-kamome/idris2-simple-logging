@@ -1,0 +1,10 @@
+[custom.all.simple-logging]
+type = "local"
+path = "."
+ipkg = "idris2-simple-logging.ipkg"
+test = "test/test.ipkg"
+
+[custom.all.simple-logging-test]
+type = "local"
+path = "test"
+ipkg = "test.ipkg"
